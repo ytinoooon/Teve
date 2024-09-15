@@ -1,0 +1,38 @@
+body { 
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FADFA1;
+}
+
+h1 { 
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+div { 
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+button {
+    border-radius: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 1px;
+    background-color: #F6EACB;
+    font-size: large;
+
+}
+
+select {
+    border-radius: 50px;
+    text-align: center;
+    background-color: #F6EACB;
+}

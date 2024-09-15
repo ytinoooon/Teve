@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEVE</title>
+</head>
+<body>
+    <div> 
+        <h2>Ennyiért érné meg tevében (Camelus dromedarius) a történet : <h2>
+        <h1 id="variable" class="variable"></h1>
+        <p>Egy teve 2000 - 3000 amerikai dollár (USD) közt szokott lenni.</p>
+    </div>
+    <style>
+        .variable {
+            margin-top: 10%;
+            font-size: 250px;
+        }
+        h2 { 
+            font-size: 50px;
+        }
+    </style>
+    <script>
+        // Retrieve the variable from sessionStorage
+        const variable = sessionStorage.getItem('variable');
+
+        // Display the variable on the page
+        document.getElementById("variable").innerText = variable || "No variable found.";
+    </script>
+
+</body>
+</html>
